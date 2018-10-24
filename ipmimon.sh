@@ -1,7 +1,7 @@
 #!/bin/bash
 #Peter Kowalsky - 24.10.2018
 #IPMI Sensor Monitoring (ipmimon) -> InfluxDB
-#Usage : ./NVMEmon.sh NVME_DRIVE -> ./NVMEmon.sh nvme0n1
+#Usage : ./ipmimon.sh
 
 HOSTNAME=$(hostname)
 INFLUX_DB_LOC="http://localhost:8086/write?db=opentsdb"
